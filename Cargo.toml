@@ -3,6 +3,17 @@ name = "rs-blob2json"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the bytes to JSON."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-blob2json"
+homepage = "https://github.com/takanoriyanagitani/rs-blob2json"
+documentation = "https://docs.rs/rs-blob2json/latest"
+keywords = ["blob", "json", "wasi", "base64"]
+
+exclude = [
+	"blob2json.wasm",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
